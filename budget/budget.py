@@ -91,6 +91,6 @@ def create_spend_chart(categories):
   string+="    "
   for i in range(len(names)*3+1):
     string+="_"
-  string+="\"
+  string+="\n"
   return string
     
